@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Táblázatok</title>
+	<meta charset="utf-8">
+	<style>
+	table, td, th{
+		border: 1px solid blue;
+		border-collapse:collapse;
+	}
+	th{
+		text-align:left;
+	}
+	caption{
+		text-align:left;
+	}
+	</style>
+</head>
+<body>
+	<h1>Táblázatok</h1>
+	<table>
+	
+	<tr>
+<th colspan="2">Head1</th>
+    <th colspan="2">Head2</th> 
+	</tr>	
+	
+	<tr>
+	<td>Head3</TD>
+	<td>Head4</TD>
+	<td>Head5</TD>
+	<td>Head6</td>
+	</tr>
+	
+		<tr>
+	<td>A</TD>
+	<td>B</TD>
+	<td>C</TD>
+	<td>D</td>
+	</tr>
+	
+	<tr>
+	<td>E</TD>
+	<td>F</TD>
+	<td>G</TD>
+	<td>H</td>
+	</tr>
+	
+	</table>
+	
+	<p></p>
+	<table style="width:50%">
+	
+	
+	<tr><td rowspan="2">Head1</td>
+   <td>Item1</td>
+   <td>Item2</td>
+   <td>Item3</td>
+   <td>Item4</td></tr>
+	<td>Item5</td>
+   <td>Item6</td>
+ <td>Item7</td>
+   <td>Item8</td>
+   
+	<tr>
+	<td>Head2</TD>
+	<td>Item9</TD>
+	<td>Item10</TD>
+	<td>Item11</TD>
+	<td>Item12</TD>
+	</tr>
+	
+	
+	</table>
+	<p></p>
+	<table style="width:50%">
+	
+	
+	<tr><td></td>
+   <td>1</td>
+   <td>2</td>
+ 
+   <th>3
+   <table style="border: 2px solid black;">
+	<tbody>
+		<tr>
+		<th ></th>
+		<td style="border: 2px solid black;">A</td>
+		<td style="border: 2px solid black;">B</td>
+		</tr>
+		<tr>
+		<th></th>
+		<td style="border: 2px solid black;">C</td>
+		<td style="border: 2px solid black;">D</td>
+		</tr>
+	</tbody>
+	</table>
+   </th>
+   
+   </tr>
+	
+   
+	<tr>
+	<td></td>
+	<td>4</TD>
+	<td>5</TD>
+	<td colspan="2">6</TD>
+	
+	
+	</tr>
+	
+	
+	</table>
+	
+	
+	<p></p>
+	<table style="width:30%">
+	<caption>
+	Bemutató táblázat
+	</caption>
+	<colgroup>
+		<col span="2" style="background:red">
+		<col style="background:yellow">
+	</colgroup>
+	<thead>
+	<tr>
+	<th> ISBN</th>
+	<th>Title</th>
+	<th>Price</th>
+	</tr>	
+	</thead>
+	
+	<tfoot>
+	<tr>
+	</tr>	
+	</tfoot>
+	
+	<tbody>
+	<tr>
+	<th>3476896</Th>
+	<td>My First HTML</TD>
+	<td>$53</TD>
+	</tr>	
+	
+	<tr>
+	<th>5869207</Th>
+	<td>My First CSS</td>
+		
+	<td>$49</TD>
+	
+	</tr>
+	</tbody>
+	</table>
+</body>
+</html>
+
